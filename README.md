@@ -9,15 +9,15 @@ The following Figure shows several segmentation results on Fehling et al.'s data
 We also improve the system to enable segmentation for laryngoscopic video. Here are some examples: 
 
 <div align=center>
-  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_1_tmp.gif">
-  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_2_tmp.gif">
-  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_3_tmp.gif">
+  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_1_tmp.gif" style="max-width: auto; height: auto;">
+  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_2_tmp.gif" style="max-width: auto; height: auto;">
+  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_3_tmp.gif" style="max-width: auto; height: auto;">
 </div>
 
-<div style="justify-content: center; flex-wrap: wrap;">
-  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_1.gif">
-  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_2.gif">
-  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_3.gif">
+<div align=center>
+  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_1.gif" style="max-width: auto; height: auto;">
+  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_2.gif" style="max-width: auto; height: auto;">
+  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_3.gif" style="max-width: auto; height: auto;">
 </div>
 
 ## Model Checkpoints
