@@ -9,7 +9,8 @@ The following Figure shows several segmentation results on Fehling et al.'s data
 We also improve the system to enable segmentation for laryngoscopic video. Here are some examples: 
 ![Page 2](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_1.gif)
 
-(https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_1.gif)
+![Page 3](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_1.gif)
+
 ## Model Checkpoints:
 
 ## Using the code
