@@ -1,5 +1,5 @@
 # Laryngoscopic-Image-Segmentation-Toolkit
-This Github repo 
+This Github repo is an open-source toolkit and display of the laryngoscopic image segmentation system proposed in our work: 
 
 ## Introduction of the system
 
