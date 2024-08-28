@@ -8,7 +8,7 @@ The following Figure shows several segmentation results on Fehling et al.'s data
 ![Page 1](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/results.jpg)
 We also improve the system to enable segmentation for laryngoscopic video. Here are some examples: 
 
-<div style="justify-content: center; flex-wrap: wrap;">
+<div align=center>
   <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_1_tmp.gif">
   <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_2_tmp.gif">
   <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_3_tmp.gif">
