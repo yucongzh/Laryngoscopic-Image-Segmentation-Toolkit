@@ -14,7 +14,7 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 
 ![Page 6](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_3_tmp.gif)![Page 7](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_3.gif)
 
-## Model Checkpoints:
+## Model Checkpoints
 
 ## Using the code
 We provide a jupyter notebook that enables users to input laryngoscopic images and obtain output images with glottis and vocal fold masks. You will need to adapt the paths for image and model loading. 
