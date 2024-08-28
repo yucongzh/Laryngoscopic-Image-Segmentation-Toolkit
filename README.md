@@ -11,6 +11,8 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 
 ![Page 4](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_2_tmp.gif)![Page 5](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_2.gif)
 
+![Page 6](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_3_tmp.gif)![Page 7](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_3.gif)
+
 ## Model Checkpoints:
 
 ## Using the code
