@@ -23,8 +23,6 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
   <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_3.gif" style="max-width: auto; height: auto;">
 </div>
 
-## Model Checkpoints
-
 ## Using the code
 We provide a zip file as our toolkit which contains functions, inference code and  model checkpoints. To use the toolkit, users can simply input laryngoscopic images and obtain output images with glottis and vocal fold masks by running ```main.py```. You will need to adapt the paths if necessary.
 
