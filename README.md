@@ -4,10 +4,10 @@ This Github repo is an open-source toolkit and display of the laryngoscopic imag
 ## Introduction of the system
 The system produces vocal folds and glottis masks from input laryngoscopic images. It has been trained on BAGLS dataset [\[1\]](#ref-1) containing 59250-frame wise glottis annotations extracted from endoscopic high-speed videos (HSV) for glottis segmentation and larynx area object detection. The system then segments vocal folds by using image processing methods to extract prompts and appying prompt engineering methods for the prompt-based segmentation anything model (SAM) [\[2\]](#ref-2). 
 
-As for the evaluation of the system's segmentation accuracy, we use Fehling et al.'s dataset <a id="ref-3"></a>[3], which is the only open-source dataset containing frame wise glottis and vocal fold annotations extracted from HSV.
+As for the evaluation of the system's segmentation accuracy, we use Fehling et al.'s dataset [\[3\]](#ref-3), which is the only open-source dataset containing frame wise glottis and vocal fold annotations extracted from HSV.
 
 ## Segmentation demos
-The following Figure shows several segmentation results on Fehling et al.'s dataset <a id="ref-4"></a>[4]:
+The following Figure shows several segmentation results on Fehling et al.'s dataset [\[3\]](#ref-3):
 ![Page 1](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/results.jpg)
 We also improve the system to enable segmentation for laryngoscopic video. Here are some examples: 
 
