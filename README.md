@@ -26,7 +26,8 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 ## Model Checkpoints
 
 ## Using the code
-We provide a zip file as our toolkit which contains functions, inference code and  model checkpoints. To use the toolkit, users can simply input laryngoscopic images and obtain output images with glottis and vocal fold masks by running ```main.py```. You will need to adapt the paths. 
+We provide a zip file as our toolkit which contains functions, inference code and  model checkpoints. To use the toolkit, users can simply input laryngoscopic images and obtain output images with glottis and vocal fold masks by running ```main.py```. You will need to adapt the paths if necessary.
+
 The following are requirements for runnning the notebook:
 ```
 python==3.8
