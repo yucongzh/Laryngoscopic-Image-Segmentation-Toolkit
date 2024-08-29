@@ -2,9 +2,12 @@
 This Github repo is an open-source toolkit and display of the laryngoscopic image segmentation system proposed in our work: 
 
 ## Introduction of the system
-The system produces vocal folds and glottis masks from input laryngoscopic images. It has been trained on BAGLS dataset [\[1\]](#ref-1) containing 59250-frame wise glottis annotations extracted from endoscopic high-speed videos (HSV) for glottis segmentation and larynx area object detection. The system then segments vocal folds by using image processing methods to extract prompts and appying prompt engineering methods for the prompt-based segmentation anything model (SAM).
+The system produces vocal folds and glottis masks from input laryngoscopic images. It has been trained on BAGLS dataset [\[1\]](#ref-1) containing 59250-frame wise glottis annotations extracted from endoscopic high-speed videos (HSV) for glottis segmentation and larynx area object detection. The system then segments vocal folds by using image processing methods to extract prompts and appying prompt engineering methods for the prompt-based segmentation anything model (SAM) [\[2\]](#ref-2). 
+
+As for the evaluation of the system's segmentation accuracy, we use Fehling et al.'s dataset <a id="ref-3"></a>[3], which is the only open-source dataset containing frame wise glottis and vocal fold annotations extracted from HSV.
+
 ## Segmentation demos
-The following Figure shows several segmentation results on Fehling et al.'s dataset:
+The following Figure shows several segmentation results on Fehling et al.'s dataset <a id="ref-4"></a>[4]:
 ![Page 1](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/results.jpg)
 We also improve the system to enable segmentation for laryngoscopic video. Here are some examples: 
 
@@ -34,8 +37,8 @@ segment-anything==1.0
 ## Citing the work
 
 ## Reference
-- Fehling, M. K., Grosch, F., Schuster, M. E., Schick, B., & Lohscheller, J. (2020). Fully automatic segmentation of glottis and vocal folds in endoscopic laryngeal high-speed videos using a deep Convolutional LSTM Network. PLOS ONE, 15(2), e0227791. https://doi.org/10.1371/journal.pone.0227791
-  
 <a id="ref-1"></a>[1] Gómez, P., Kist, A. M., Schlegel, P., Berry, D. A., Chhetri, D. K., Dürr, S., Echternach, M., Johnson, A. M., Kniesburges, S.Kunduk, M., Youri Maryn, Schützenberger, A., Verguts, M., & Döllinger, M. (2020). BAGLS, a multihospital Benchmark for Automatic Glottis Segmentation. Scientific Data, 7(1). https://doi.org/10.1038/s41597-020-0526-3
 
-- Kirillov, A., Mintun, E., Ravi, N., Mao, H., Rolland, C., Gustafson, L., Xiao, T., Whitehead, S., Berg, A. C., Lo, W.-Y., Dollar, P., & Girshick, R. (2023). Segment Anything. Openaccess.thecvf.com. http://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html
+<a id="ref-2"></a>[2] Kirillov, A., Mintun, E., Ravi, N., Mao, H., Rolland, C., Gustafson, L., Xiao, T., Whitehead, S., Berg, A. C., Lo, W.-Y., Dollar, P., & Girshick, R. (2023). Segment Anything. Openaccess.thecvf.com. http://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html
+
+<a id="ref-3"></a>[3] Fehling, M. K., Grosch, F., Schuster, M. E., Schick, B., & Lohscheller, J. (2020). Fully automatic segmentation of glottis and vocal folds in endoscopic laryngeal high-speed videos using a deep Convolutional LSTM Network. PLOS ONE, 15(2), e0227791. https://doi.org/10.1371/journal.pone.0227791
