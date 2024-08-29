@@ -27,6 +27,7 @@ We provide a jupyter notebook that enables users to input laryngoscopic images a
 The following are requirements for runnning the notebook:
 ```
 python==3.8
+segment-anything==1.0
 ```
 ## License
 
