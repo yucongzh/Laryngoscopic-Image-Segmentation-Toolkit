@@ -34,3 +34,8 @@ segment-anything==1.0
 ## Citing the work
 
 ## Reference
+- Fehling, M. K., Grosch, F., Schuster, M. E., Schick, B., & Lohscheller, J. (2020). Fully automatic segmentation of glottis and vocal folds in endoscopic laryngeal high-speed videos using a deep Convolutional LSTM Network. PLOS ONE, 15(2), e0227791. https://doi.org/10.1371/journal.pone.0227791
+  
+- Gómez, P., Kist, A. M., Schlegel, P., Berry, D. A., Chhetri, D. K., Dürr, S., Echternach, M., Johnson, A. M., Kniesburges, S.Kunduk, M., Youri Maryn, Schützenberger, A., Verguts, M., & Döllinger, M. (2020). BAGLS, a multihospital Benchmark for Automatic Glottis Segmentation. Scientific Data, 7(1). https://doi.org/10.1038/s41597-020-0526-3
+
+- Kirillov, A., Mintun, E., Ravi, N., Mao, H., Rolland, C., Gustafson, L., Xiao, T., Whitehead, S., Berg, A. C., Lo, W.-Y., Dollar, P., & Girshick, R. (2023). Segment Anything. Openaccess.thecvf.com. http://openaccess.thecvf.com/content/ICCV2023/html/Kirillov_Segment_Anything_ICCV_2023_paper.html
