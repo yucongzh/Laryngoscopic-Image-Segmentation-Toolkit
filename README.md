@@ -24,16 +24,12 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 </div>
 
 ## Using the code
-We provide a zip file as our toolkit which contains functions, inference code and  model checkpoints. To use the toolkit, users can simply input laryngoscopic images and obtain output images with glottis and vocal fold masks by running ```main.py```. You will need to adapt the paths if necessary.
+The codes will be available after the paper is accepted.
 
-The following are requirements for runnning the notebook:
-```
-python==3.8
-segment-anything==1.0
-```
 ## License
 
 ## Citing the work
+
 
 ## Reference
 <a id="ref-1"></a>[1] Gómez, P., Kist, A. M., Schlegel, P., Berry, D. A., Chhetri, D. K., Dürr, S., Echternach, M., Johnson, A. M., Kniesburges, S.Kunduk, M., Youri Maryn, Schützenberger, A., Verguts, M., & Döllinger, M. (2020). BAGLS, a multihospital Benchmark for Automatic Glottis Segmentation. Scientific Data, 7(1). https://doi.org/10.1038/s41597-020-0526-3
