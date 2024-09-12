@@ -41,6 +41,7 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 
 ## Acknowledgement
 - [ultralytics/yolov5](https://github.com/ultralytics/yolov5)
+- [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
 
 ## Citing the work
 @article{zhang2024multimodal,  
