@@ -29,7 +29,7 @@ The codes will be available after the paper is accepted.
 ## License
 
 ## Citing the work
-@article{zhang2024multimodal,
+@article{zhang2024multimodal, 
   title={Multimodal Laryngoscopic Video Analysis for Assisted Diagnosis of Vocal Cord Paralysis},
   author={Zhang, Yucong and Zou, Xin and Yang, Jinshan and Chen, Wenjun and Liang, Faya and Li, Ming},
   journal={arXiv preprint arXiv:2409.03597},
