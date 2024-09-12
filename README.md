@@ -35,8 +35,8 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 </div>
 
 ## Using the code
-1. Download our trained U-Net and YOLO-v5 from [huggingface.co](https://huggingface.co/yucongzh/glottis_segmentation/tree/main).
-2. Clone YOLO-v5 repository from [ultralytics/yolov5](https://github.com/ultralytics/yolov5), and put it in the `Toolkit` folder.
+1. Clone YOLO-v5 repository from [ultralytics/yolov5](https://github.com/ultralytics/yolov5), and put it in the `Toolkit` folder.
+2. Download our trained U-Net and YOLO-v5 from [huggingface.co](https://huggingface.co/yucongzh/glottis_segmentation/tree/main).
 3. Download the SAM checkpoint for the`vit_h` model type from the official [Segment Anything GitHub repository](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints).
 4. Go to `Toolkit` folder, and run `main.py`.
 
