@@ -37,8 +37,6 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 ## Using the code
 First download our trained U-Net and YOLO-v5 [model checkpoints](https://huggingface.co/yucongzh/glottis_segmentation/tree/main). Next, download the SAM checkpoint for the`vit_h` model type from the official [Segment Anything GitHub repository](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints). Then clone or download the code in [Toolkit](https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Toolkit). It contains all utility functions and the main script for running inference with the pre-trained models.
 
-## License
-
 ## Citing the work
 @article{zhang2024multimodal, 
   title={Multimodal Laryngoscopic Video Analysis for Assisted Diagnosis of Vocal Cord Paralysis},
