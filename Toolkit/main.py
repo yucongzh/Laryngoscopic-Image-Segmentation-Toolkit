@@ -13,14 +13,15 @@ from segment_anything import sam_model_registry
 sys.path.append("..")
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--vpath',       default='./input/00001_rgb.png',    type=str)
-parser.add_argument('--rootdir',     default="./",                       type=str)
-parser.add_argument('--gpu',         default="0",                        type=str)
+parser.add_argument('--filename',       default='00001_rgb.jpg',         type=str)
+parser.add_argument('--rootdir',        default="./",                    type=str)
+parser.add_argument('--gpu',            default="0",                     type=str)
 args = parser.parse_args()
 
 #%% Basic settings
-vid = os.path.splitext(os.path.basename(args.vpath))[0]
-vid2fpath = {vid:args.vpath}
+vid = os.path.splitext(args.filename)[0]
+vpath = f"../data/{args.filename}"
+vid2fpath = {vid:vpath}
 vids = list(vid2fpath.keys())
 os.system("export VERBOSE=False")
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
@@ -50,11 +51,10 @@ sam.to(device=device)
 
 #%%
 if __name__ == "__main__":
-    for vid in vids:
-        warnings.filterwarnings("ignore", category=RuntimeWarning)
-        img = imread(args.vpath)
-        gmask,_,bbox,mid,angle = peek_v2(img, net, yolo_model, device)
-        vf_mask = get_sam_masks_unet_with_yolo_lr_v7(img,[],sam,gmask,bbox,mid,angle,gmask,yolo_model)
-        vf_mask = np.uint8(vf_mask)
-        plt.imsave(f"{args.rootdir}/output/{vid}_mask.png", vf_mask)
-        print('Message-Segmentation Done.')
+    warnings.filterwarnings("ignore", category=RuntimeWarning)
+    img = imread(vpath)
+    gmask,_,bbox,mid,angle = peek_v2(img, net, yolo_model, device)
+    vf_mask = get_sam_masks_unet_with_yolo_lr_v7(img,[],sam,gmask,bbox,mid,angle,gmask,yolo_model)
+    vf_mask = np.uint8(vf_mask)
+    plt.imsave(f"{args.rootdir}/output/{vid}_mask.png", vf_mask)
+    print('Message-Segmentation Done.')
