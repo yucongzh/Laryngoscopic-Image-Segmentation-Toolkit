@@ -34,7 +34,7 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
   <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_3.gif" style="max-width: auto; height: auto;">
 </div>
 
-## Toolkit instructions
+## Toolkit Instructions
 1. Clone YOLO-v5 repository from [ultralytics/yolov5](https://github.com/ultralytics/yolov5), and put it in `Toolkit/`.
 2. Download our trained U-Net and YOLO-v5 from [huggingface.co](https://huggingface.co/yucongzh/glottis_segmentation/tree/main), and save it to `Toolkit/checkpoints/`.
 3. Download the SAM checkpoint for the`vit_h` model type from the official [Segment Anything GitHub repository](https://github.com/facebookresearch/segment-anything?tab=readme-ov-file#model-checkpoints), and save it to `Toolkit/checkpoints/`.
@@ -45,7 +45,7 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 - [ultralytics/yolov5](https://github.com/ultralytics/yolov5)
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
 
-## Citing the works
+## Citations
 @article{zhang2024multimodal,  
   title={Multimodal Laryngoscopic Video Analysis for Assisted Diagnosis of Vocal Cord Paralysis}, 
   author={Zhang, Yucong and Zou, Xin and Yang, Jinshan and Chen, Wenjun and Liang, Faya and Li, Ming},  
