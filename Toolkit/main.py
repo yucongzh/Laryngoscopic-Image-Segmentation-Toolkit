@@ -13,14 +13,14 @@ from segment_anything import sam_model_registry
 sys.path.append("..")
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--vid',         default='00001_rgb',                type=str)
 parser.add_argument('--vpath',       default='./input/00001_rgb.png',    type=str)
 parser.add_argument('--rootdir',     default="./",                       type=str)
 parser.add_argument('--gpu',         default="0",                        type=str)
 args = parser.parse_args()
 
 #%% Basic settings
-vid2fpath = {args.vid:args.vpath}
+vid = os.path.splitext(os.path.basename(args.vpath))[0]
+vid2fpath = {vid:args.vpath}
 vids = list(vid2fpath.keys())
 os.system("export VERBOSE=False")
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
