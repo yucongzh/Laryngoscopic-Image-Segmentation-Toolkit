@@ -1,3 +1,5 @@
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 # Laryngoscopic-Image-Segmentation-Toolkit
 This Github repo is an open-source toolkit and display of the laryngoscopic image segmentation system proposed in our work: 
 
@@ -51,8 +53,6 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 
 
 ## License
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
