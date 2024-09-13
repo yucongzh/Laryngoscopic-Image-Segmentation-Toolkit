@@ -50,7 +50,7 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 <a id="ref-3"></a>[3] Fehling, M. K., Grosch, F., Schuster, M. E., Schick, B., & Lohscheller, J. (2020). Fully automatic segmentation of glottis and vocal folds in endoscopic laryngeal high-speed videos using a deep Convolutional LSTM Network. PLOS ONE, 15(2), e0227791. https://doi.org/10.1371/journal.pone.0227791
 
 
-
+## License
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
