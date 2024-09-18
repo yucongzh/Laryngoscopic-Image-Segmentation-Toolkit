@@ -37,7 +37,7 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
 
 ## Citations
-@article{zhang2024multimodal,  
+"@article{zhang2024multimodal,  
   title={Multimodal Laryngoscopic Video Analysis for Assisted Diagnosis of Vocal Cord Paralysis}, 
   author={Zhang, Yucong and Zou, Xin and Yang, Jinshan and Chen, Wenjun and Liang, Faya and Li, Ming},  
   journal={arXiv preprint arXiv:2409.03597},  
@@ -48,7 +48,7 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
   title={An Automatic Laryngoscopic Image Segmentation System Based on SAM Prompt Engineering: From Glottis Annotation to Vocal Fold Segmentation}, 
   author={Song, Yuchen and Zhang, Yucong and Li, Ming},  
   year={2024}  
-}
+}"
 
 ## References
 <a id="ref-1"></a>[1] Gómez, P., Kist, A. M., Schlegel, P., Berry, D. A., Chhetri, D. K., Dürr, S., Echternach, M., Johnson, A. M., Kniesburges, S.Kunduk, M., Youri Maryn, Schützenberger, A., Verguts, M., & Döllinger, M. (2020). BAGLS, a multihospital Benchmark for Automatic Glottis Segmentation. Scientific Data, 7(1). https://doi.org/10.1038/s41597-020-0526-3
