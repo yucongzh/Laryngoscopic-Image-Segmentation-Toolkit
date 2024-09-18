@@ -22,7 +22,7 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 <div align=center>
   <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_1.gif" style="max-width: auto; height: auto;">
   <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_2.gif" style="max-width: auto; height: auto;">
-  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_3.gif" style="max-width: auto; height: auto;">
+  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_3_masked.gif" style="max-width: auto; height: auto;">
 </div>
 
 ## Toolkit Instructions
