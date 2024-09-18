@@ -20,8 +20,8 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 </div>
 
 <div align=center>
-  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_1.gif" style="max-width: auto; height: auto;">
-  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_masked_2.gif" style="max-width: auto; height: auto;">
+  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_1_masked.gif" style="max-width: auto; height: auto;">
+  <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_2_masked.gif" style="max-width: auto; height: auto;">
   <img src="https://github.com/EEugeneS/Laryngoscopic-Image-Segmentation-Toolkit/blob/main/Demos/gif/video_3_masked.gif" style="max-width: auto; height: auto;">
 </div>
 
