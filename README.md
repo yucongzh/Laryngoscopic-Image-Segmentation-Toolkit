@@ -38,16 +38,16 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 
 ## Citations
 @article{zhang2024multimodal,  
-  title={Multimodal Laryngoscopic Video Analysis for Assisted Diagnosis of Vocal Cord Paralysis}, 
+  title={Multimodal Laryngoscopic Video Analysis for Assisted Diagnosis of Vocal Cord Paralysis},  
   author={Zhang, Yucong and Zou, Xin and Yang, Jinshan and Chen, Wenjun and Liang, Faya and Li, Ming},  
   journal={arXiv preprint arXiv:2409.03597},  
   year={2024}  
 }
 
-@article{song2024,
-  title={An Automatic Laryngoscopic Image Segmentation System Based on SAM Prompt Engineering: From Glottis Annotation to Vocal Fold Segmentation},
-  author={Song, Yuchen and Zhang, Yucong and Li, Ming},
-  year={2024}
+@article{song2024,  
+  title={An Automatic Laryngoscopic Image Segmentation System Based on SAM Prompt Engineering: From Glottis Annotation to Vocal Fold Segmentation},  
+  author={Song, Yuchen and Zhang, Yucong and Li, Ming},  
+  year={2024}  
 }
 
 ## References
