@@ -37,17 +37,22 @@ We also improve the system to enable segmentation for laryngoscopic video. Here 
 - [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
 
 ## Citations
-@article{zhang2024multimodal,  
-  title={Multimodal Laryngoscopic Video Analysis for Assisted Diagnosis of Vocal Cord Paralysis},  
-  author={Zhang, Yucong and Zou, Xin and Yang, Jinshan and Chen, Wenjun and Liang, Faya and Li, Ming},  
-  journal={arXiv preprint arXiv:2409.03597},  
-  year={2024}  
+@article{zhang2025multimodal,
+  title={Multimodal laryngoscopic video analysis for assisted diagnosis of vocal fold paralysis},
+  author={Zhang, Yucong and Zou, Xin and Yang, Jinshan and Chen, Wenjun and Liu, Juan and Liang, Faya and others},
+  journal={Computer Speech \& Language},
+  pages={101891},
+  year={2025},
+  publisher={Elsevier}
 }
 
-@article{song2024,  
-  title={An Automatic Laryngoscopic Image Segmentation System Based on SAM Prompt Engineering: From Glottis Annotation to Vocal Fold Segmentation},  
-  author={Song, Yuchen and Zhang, Yucong and Li, Ming},  
-  year={2024}  
+@article{zhang2025automatic,
+  title={An automatic laryngoscopic image segmentation system based on SAM prompt engineering: from glottis annotation to vocal fold segmentation},
+  author={Zhang, Yucong and Song, Yuchen and Liu, Juan and Li, Ming},
+  journal={Frontiers in Molecular Biosciences},
+  volume={12},
+  pages={1616271},
+  year={2025}
 }
 
 ## References
